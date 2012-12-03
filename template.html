@@ -2,7 +2,7 @@
 <!--[if IE 7]> <html class="ie ie87 ie7" lang="en"> <![endif]-->
 <!--[if IE 8]> <html class="ie ie87 ie8" lang="en"> <![endif]-->
 <!--[if IE 9]> <html class="ie ie9" lang="en"> <![endif]-->
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -21,44 +21,61 @@
 <div class="-body">
 
   <!-- HEADER -->
-  <header class="-header" itemscope itemtype='http://schema.org/WPHeader'>
+  <header class="-header" itemscope itemtype='http://schema.org/HomeAndConstructionBusiness'>
     <!--logo-->
     <a class="-header__logo" href="index.html" itemprop='url'>
-      <img src="images/page-header__logo.png" alt="" itemprop='image'>
-      <span class="name" itemprop="name"></span>
+      <img src="images/header__logo.png" alt="Фабрика окон Экипаж" itemprop='logo' itemscope itemtype='http://schema.org/ImageObject'>
+      <span class="name" itemprop="name">Фабрика окон "Экипаж"</span>
     </a>
-    <!--navigation-->
-    <nav class="-header__nav" itemscope itemtype='http://schema.org/SiteNavigationElement'>
-      <ul>
-        <li><a href="#" class="unit active"></a></li>
-        <li><a href="#" class="unit"></a></li>
-      </ul>
-    </nav>
+    <!--number-->
+    <address class="-header__phone">
+      <p class="title">Заказ окон онлайн!</p>
+      <p class="unit" itemprop='telephone'>(050) 402-40-36</p>
+    </address>
+    <div>
+      <!--serv navigation-->
+      <nav class="-header__nav_serv">
+        <a href="#" class="unit unit-1" title="Home page">Home page</a>
+        <a href="#" class="unit unit-2" title="Search">Search</a>
+        <a href="#" class="unit unit-3" title="Site map">Site map</a>
+      </nav>
+      <!--main navigation-->
+      <nav class="-header__nav_main" itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <a href="#" class="unit">Компания</a>
+        <a href="#" class="unit">Новости</a>
+        <a href="#" class="unit">Контакты</a>
+        <a href="#" class="unit">Вакансии</a>
+      </nav>
+    </div>
   </header><!--END HEADER-->
 
 
 
   <!--START page template-->
   <div class="-template" role="main">
-    <!--breadcrumbs-->
-    <nav class="-crumbs" itemprop='breadcrumb'>
-      <ul>
-        <li><a href="#" class="unit"></a></li>
-        <li><a href="#" class="unit"></a></li>
-      </ul>
-    </nav>
-
     <!--main column with content-->
-    <div class="-template__content">
-      sdfa;ksdfj;aklsdj
-      <div style="font-family: MyriadPro-BoldIt;">;lksdjf;alksdfjas;'dfj</div>
-    </div>
+    <div class="-template__content"></div>
     <!--end main column with content-->
 
     <!--sidebar-->
     <aside class="-template__aside" itemscope itemtype='http://schema.org/WPSideBar'></aside>
     <!--end left sidebar-->
 
+
+    <!--scrollUp and search-->
+    <div class="-template__btmServBlock_lt">
+      <a href="#" class="-template__scrollUp">Вверх</a>
+      <form class="-template__search">
+        <input type="text" class="input">
+        <button type="submit" class="submit"></button>
+      </form>
+    </div>
+    <!--online-consulting-->
+    <div class="-template__btmServBlock_lt">
+      <a href="#">
+        <span class="status">On-line</span> консультант
+      </a>
+    </div>
   </div><!--END page template-->
 
   <div class="footer_helper"></div>
@@ -66,20 +83,38 @@
 
 <!-- FOOTER -->
 <footer class="-footer" itemscope itemtype='http://schema.org/WPFooter'>
-  <!--logo-->
-  <a class="-footer__logo" href="index.html" itemprop='url'>
-    <img src="images/page-footer__logo.png" alt="" itemprop='image'>
-    <span class="name" itemprop="name"></span>
-  </a>
-  <!--copy-->
-  <small class="-footer__copy"></small>
-  <!--navigation-->
-  <nav class="-footer__nav" itemscope itemtype='http://schema.org/SiteNavigationElement'>
-    <ul>
-      <li><a href="#" class="unit"></a></li>
-      <li><a href="#" class="unit"></a></li>
-    </ul>
-  </nav>
+  <div class="-footer__content">
+    <!--links(left part)-->
+    <div class="-footer__links -footer__unit">
+      <a href="#" class="unit unit-1">Письмо руководителю</a>
+      <a href="#" class="unit unit-2">Оставить отзыв</a>
+      <a href="#" class="unit unit-3">Посмотреть отзывы</a>
+    </div>
+    <!--address-->
+    <div class="-footer__address -footer__unit">
+      <h3 class="title">Главный офис:</h3>
+      <address class="content">
+        <p>г. Харьков, ул. 23-го Августа, 40.</p>
+        <p>тел.: (057) 434-20-93,</p>
+        <p>(067) 232-84-29.</p>
+      </address>
+      <a href="#" class="link">Карта проезда</a>
+    </div>
+    <!--navigation-->
+    <nav class="-footer__nav -footer__unit">
+      <ul>
+        <li><a href="#" class="unit">Компания</a></li>
+        <li><a href="#" class="unit">Новости</a></li>
+        <li><a href="#" class="unit">Контакты</a></li>
+        <li><a href="#" class="unit">Вакансии</a></li>
+      </ul>
+      <ul>
+        <li><a href="#" class="unit">Договор</a><li>
+        <li><a href="#" class="unit">Форум</a><li>
+        <li><a href="#" class="unit">Клиенты</a><li>
+      </ul>
+    </nav>
+  </div>
 </footer>
 <!-- END FOOTER -->
 
