@@ -53,8 +53,54 @@
 
   <!--START page template-->
   <div class="-template" role="main">
+    <!--****-->
     <!--main column with content-->
-    <div class="-template__content"></div>
+    <div class="-template__textContent">
+      <!--column-->
+      <section class="unit">
+        <h2 class="unit__title">О проекте</h2>
+        <div class="unit__content">
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its la  yout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+          <p>Вistribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many.</p>
+        </div>
+      </section>
+      <!--column-->
+      <section class="unit">
+        <h2 class="unit__title">Сервис</h2>
+        <div class="unit__content">
+          <p>Аstracted by the readable content of a page when looking at its la   look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default mod yout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+          <dl>
+            <dt class="unit__subtitle">Менеджер по рекламациям</dt>
+            <dd>(050) 525-30-60, Валентин.</dd>
+            <dt class="unit__subtitle">Консультации</dt>
+            <dd>(066) 862-62-63,<br>Валентина Степановна.</dd>
+            <dt class="unit__subtitle">Водитель</dt>
+            <dd>(067) 533-69-41, Константин</dd>
+          </dl>
+        </div>
+      </section>
+      <!--column-->
+      <section class="unit">
+        <h2 class="unit__title">Новости</h2>
+        <div class="unit__content">
+          <!--one new-->
+          <article class="theNew">
+          <time datetime="2012-10-25">2012.10.25</time>
+            <div class="theNew__content">Many desktop publishing packages and web page editors now use</div>
+          </article>
+          <!--one new-->
+          <article class="theNew">
+            <time datetime="2012-10-25">2012.10.25</time>
+            <div class="theNew__content">Many desktop publishing packages and web page editors now use</div>
+          </article>
+          <!--one new-->
+          <article class="theNew">
+            <time datetime="2012-10-25">2012.10.25</time>
+            <div class="theNew__content">Many desktop publishing packages and web page editors now use</div>
+          </article>
+        </div>
+      </section>
+    </div>
     <!--end main column with content-->
 
     <!--sidebar-->
@@ -63,16 +109,15 @@
 
 
     <!--scrollUp and search-->
-    <div class="-template__btmServBlock_lt">
-      <a href="#" class="-template__scrollUp">Вверх</a>
-      <form class="-template__search">
-        <input type="text" class="input">
-        <button type="submit" class="submit"></button>
-      </form>
-    </div>
-    <!--online-consulting-->
-    <div class="-template__btmServBlock_lt">
-      <a href="#">
+    <div class="-template__bottomServiceBlock">
+      <div>
+        <a href="#" class="-template__scrollUp">Вверх</a>
+        <form class="-template__search">
+          <input type="text" class="input">
+          <button type="submit" class="submit"></button>
+        </form>
+      </div>
+      <a href="#" class="-templage__button__consultation">
         <span class="status">On-line</span> консультант
       </a>
     </div>
