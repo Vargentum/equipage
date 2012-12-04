@@ -18,7 +18,14 @@ if (!(window.console && console.log)) {
 
 
 $(function(){
-
+    $('#slider__index').camera({
+        height: '625px',
+        navigationHover: false
+    });
+    $('.-template__scrollUp').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
 
 //    if(Modernizr.csscolumns){
 //        return false;
