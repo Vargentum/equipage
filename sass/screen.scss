@@ -729,6 +729,7 @@ body {
 /*expanded block(all production)
 */
 .-template__expanded{
+  width:$width-base;
   position: relative;
   .trigger{
     top:100%;
@@ -768,6 +769,28 @@ body {
     &:after{
       bottom:0;
       background-image: url(data:image/png;base64,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);
+    }
+  }
+  .content__container{
+    text-align: justify;
+    line-height: 0;
+    font-size: 1px;
+    text-justify: newspaper;
+    zoom:1;
+    text-align-last: justify;
+    &:after{
+      content: "";
+      display: inline-block;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden;
+      width: 100%;
+    }
+    >*{
+      text-align: left;
+      @include inline-block;
+      line-height: $font-base-line_height;
+      font-size: $font-base-size;
     }
   }
   .close{
@@ -1026,13 +1049,13 @@ body {
 
 /*ABOUT page specific elements styles
 ------------------------------------------------------------------------------------------------*/
-.-template__about{
+.-template__product{
   width:595px;
   margin-left: 55px;
   float: left;
   padding:0;
 }
-.-template__about__tab_nav{
+.-template__product__tab_nav{
   padding:4px 0;
   @extend .hList;
   .unit{
@@ -1050,12 +1073,12 @@ body {
   }
 }
 
-.-template__about__tab_unit{
+.-template__product__tab_unit{
   border:2px solid #dcdbdb;
   background-color: #f1efee;
   padding:30px 30px 10px;
 }
-.-template__about__slider{
+.-template__product__slider{
   .camera_pag{
     position: absolute;
     bottom:0;
@@ -1066,8 +1089,7 @@ body {
   .camera_pag_ul{
     margin-right:15px !important;
     li{
-      margin-top:15px !important;
-      margin-bottom:10px !important;
+      margin:15px 3px 10px !important;
       width:11px !important;
       height: 11px !important;
       @include box-shadow(inset 1px 1px 1px rgba(31,14,15,.75));
@@ -1077,7 +1099,7 @@ body {
     }
   }
 }
-.-template__about__content{
+.-template__product__content{
   @extend .defaultCss;
 
 }
@@ -1085,7 +1107,7 @@ body {
 .-calculator_aside{
   width:290px;
   float: right;
-  margin: 144px 40px 0 0;
+  margin: 80px 40px 0 0;
   .title{
     font:20px $font-base__italic_bold;
     color:$color-title;
@@ -1119,6 +1141,7 @@ body {
   .unit{
     margin-bottom: 20px;
     @extend .jList;
+    &:last-child{margin-bottom: 0;}
   }
   .unit__align_btm{
     &>*{vertical-align: bottom;}
@@ -1254,11 +1277,43 @@ body {
   background-color: $color-attention-hover;
   z-index: 3;
 }
-/*SOME page specific elements styles
+/*ABOUT page specific elements styles
 ------------------------------------------------------------------------------------------------*/
+.-template__about{
+  @extend .-template__product;
+}
+.-template__about__content{
+  border:2px solid #dcdbdb;
+  background-color: #f1efee;
+  padding:30px 30px 10px;
+  @extend .defaultCss;
+}
 
+.-template__aside{
+  margin:105px 40px 0 0;
+  width:290px;
+  float: right;
+}
+.-template__aside__phone{
+  text-align: center;
+  padding:15px 30px;
+  line-height: 1.2;
+  font-size: 15px;
+  .number{
+    font:28px $font-base_bold;
+    color:$color-title;
+  }
+  .attention{
+    font:23px $font-base_bold;
+    color: #888484;
+  }
+}
 /*PLUGINS styles
 ------------------------------------------------------------------------------------------------*/
+.video_wrapper{
+  margin:20px auto;
+  width:460px;
+}
 /**************************
 *
 *	GENERAL
@@ -1657,7 +1712,21 @@ body {
 
 //opera
 @media (min-resolution: .001dpcm) {
-  _:-o-prefocus, body {}
+  _:-o-prefocus, body {
+    .-template__expanded .content__container{
+      text-align: left;
+      line-height: $font-base-line_height;
+      font-size: $font-base-size;
+      text-justify: none;
+      @extend .hList;
+      &:after{display: none;}
+      .unit{
+        margin-right:35px;
+        &:last-child{margin-right: 0;}
+      }
+
+    }
+  }
 }
 
 //debug

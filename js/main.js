@@ -35,14 +35,14 @@ $(function(){
             $(content).slideUp();
         });
     });
-    $('.-template__about__tab_nav').tabs('.-template__about__tab_unit');
+    $('.-template__product__tab_nav').tabs('.-template__product__tab_unit');
     $('.-calculator_aside__tab_nav').tabs('.-calculator_aside__tab_unit');
 
     $('img[title]').tooltip();
 
     $('.slider__simple').camera({
         height:'205px',
-        navigation: false,
+        navigation: false
     });
 //    if(Modernizr.csscolumns){
 //        return false;

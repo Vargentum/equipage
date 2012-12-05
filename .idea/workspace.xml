@@ -25,31 +25,45 @@
           <file leaf-file-name="template.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/template.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="175" column="30" selection-start="7841" selection-end="7841" vertical-scroll-proportion="-12.744186">
+                <state line="60" column="23" selection-start="3052" selection-end="3052" vertical-scroll-proportion="-6.9534883">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="about.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="191" column="6" selection-start="10428" selection-end="10428" vertical-scroll-proportion="5.7423167">
+                <state line="62" column="33" selection-start="3121" selection-end="3125" vertical-scroll-proportion="-7.405797">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="screen.scss" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="135" column="14" selection-start="6545" selection-end="6545" vertical-scroll-proportion="-6.42029">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/product.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="61" column="38" selection-start="3068" selection-end="3068" vertical-scroll-proportion="-5.9130435">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="screen.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/screen.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="268" column="4" selection-start="7946" selection-end="7946" vertical-scroll-proportion="0.0">
+                <state line="1723" column="23" selection-start="173376" selection-end="173376" vertical-scroll-proportion="0.8030127">
                   <folding>
-                    <element signature="e#149815#150234#2" expanded="true" />
-                    <element signature="e#150492#151439#2" expanded="true" />
-                    <element signature="e#152034#153185#2" expanded="true" />
-                    <element signature="e#153354#155237#2" expanded="true" />
-                    <element signature="e#156059#156882#2" expanded="true" />
+                    <element signature="e#116759#118118#2" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -62,40 +76,9 @@
           <file leaf-file-name="screen.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/screen.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1096" column="21" selection-start="148643" selection-end="148643" vertical-scroll-proportion="0.15860517">
+                <state line="774" column="24" selection-start="116150" selection-end="116150" vertical-scroll-proportion="0.19685039">
                   <folding>
-                    <element signature="e#10461#10660#2" expanded="true" />
-                    <element signature="e#86039#91030#2" expanded="true" />
-                    <element signature="e#107764#126886#0" expanded="false" />
-                    <element signature="e#108159#109694#2" expanded="true" />
-                    <element signature="e#110167#113118#2" expanded="true" />
-                    <element signature="e#113179#116070#2" expanded="true" />
-                    <element signature="e#116278#117637#2" expanded="true" />
-                    <element signature="e#117877#123892#2" expanded="true" />
-                    <element signature="e#124022#126557#2" expanded="true" />
-                    <element signature="e#127807#127994#0" expanded="false" />
-                    <element signature="e#128007#130587#0" expanded="false" />
-                    <element signature="e#128570#130365#2" expanded="true" />
-                    <element signature="e#130608#130660#0" expanded="false" />
-                    <element signature="e#131569#131660#0" expanded="false" />
-                    <element signature="e#131681#134722#0" expanded="false" />
-                    <element signature="e#131835#134634#2" expanded="true" />
-                    <element signature="e#134741#136537#0" expanded="false" />
-                    <element signature="e#135711#136438#2" expanded="true" />
-                    <element signature="e#136570#146900#0" expanded="false" />
-                    <element signature="e#136769#146804#2" expanded="true" />
-                    <element signature="e#147689#147775#0" expanded="false" />
-                    <element signature="e#147801#148333#0" expanded="false" />
-                    <element signature="e#148360#148387#0" expanded="false" />
-                    <element signature="e#149815#150234#2" expanded="true" />
-                    <element signature="e#150492#151439#2" expanded="true" />
-                    <element signature="e#152034#153185#2" expanded="true" />
-                    <element signature="e#153354#155237#2" expanded="true" />
-                    <element signature="e#156059#156882#2" expanded="true" />
-                    <element signature="e#163610#165121#2" expanded="true" />
-                    <element signature="e#165242#166713#2" expanded="true" />
-                    <element signature="e#166857#168364#2" expanded="true" />
-                    <element signature="e#168485#169960#2" expanded="true" />
+                    <element signature="e#22166#25077#2" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -104,7 +87,7 @@
           <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="71" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.0">
+                <state line="44" column="25" selection-start="2875" selection-end="2875" vertical-scroll-proportion="-12.076923">
                   <folding />
                 </state>
               </provider>
@@ -124,10 +107,11 @@
       <list>
         <option value="$PROJECT_DIR$/sass/normalize.css" />
         <option value="C:/WebServers/home/localhost/watcharena/product_long.html" />
-        <option value="$PROJECT_DIR$/template.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/template.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/product.html" />
         <option value="$PROJECT_DIR$/sass/screen.scss" />
       </list>
     </option>
@@ -164,7 +148,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,6 +182,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,8 +191,8 @@
     <property name="options.lastSelected" value="preferences.sourceCode.SCSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="equipage" serverId="e128e40e-fba5-4195-a611-0cc9716b7200">
     <servers>
@@ -294,9 +278,8 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1368884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10665201" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -305,6 +288,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -364,11 +348,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="34" selection-start="3270" selection-end="3270" vertical-scroll-proportion="0.0">
@@ -380,11 +359,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="259" column="1" selection-start="6278" selection-end="6278" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#149815#150234#2" expanded="true" />
-            <element signature="e#150492#151439#2" expanded="true" />
-            <element signature="e#152034#153185#2" expanded="true" />
-            <element signature="e#153354#155237#2" expanded="true" />
-            <element signature="e#156059#156882#2" expanded="true" />
+            <element signature="e#116759#118118#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -405,11 +380,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="259" column="1" selection-start="6230" selection-end="6230" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#149815#150234#2" expanded="true" />
-            <element signature="e#150492#151439#2" expanded="true" />
-            <element signature="e#152034#153185#2" expanded="true" />
-            <element signature="e#153354#155237#2" expanded="true" />
-            <element signature="e#156059#156882#2" expanded="true" />
+            <element signature="e#116759#118118#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -430,11 +401,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#149815#150234#2" expanded="true" />
-            <element signature="e#150492#151439#2" expanded="true" />
-            <element signature="e#152034#153185#2" expanded="true" />
-            <element signature="e#153354#155237#2" expanded="true" />
-            <element signature="e#156059#156882#2" expanded="true" />
+            <element signature="e#116759#118118#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -451,44 +418,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="23" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.5141844">
+        <state line="44" column="25" selection-start="2875" selection-end="2875" vertical-scroll-proportion="-12.076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="30" selection-start="7841" selection-end="7841" vertical-scroll-proportion="-12.744186">
+        <state line="60" column="23" selection-start="3052" selection-end="3052" vertical-scroll-proportion="-6.9534883">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="71" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.0">
+        <state line="61" column="38" selection-start="3068" selection-end="3068" vertical-scroll-proportion="-5.9130435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="14" selection-start="6545" selection-end="6545" vertical-scroll-proportion="-6.42029">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="33" selection-start="3121" selection-end="3125" vertical-scroll-proportion="-7.405797">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="4" selection-start="7946" selection-end="7946" vertical-scroll-proportion="0.0">
+        <state line="1723" column="23" selection-start="173376" selection-end="173376" vertical-scroll-proportion="0.8030127">
           <folding>
-            <element signature="e#149815#150234#2" expanded="true" />
-            <element signature="e#150492#151439#2" expanded="true" />
-            <element signature="e#152034#153185#2" expanded="true" />
-            <element signature="e#153354#155237#2" expanded="true" />
-            <element signature="e#156059#156882#2" expanded="true" />
+            <element signature="e#116759#118118#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="6" selection-start="10428" selection-end="10428" vertical-scroll-proportion="5.7423167">
-          <folding />
         </state>
       </provider>
     </entry>

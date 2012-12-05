@@ -53,6 +53,7 @@
 
   <!--START page template-->
   <div class="-template" role="main">
+
     <!--expanded list ("All production")-->
     <div class="-template__expanded" id="-template__expanded">
       <a href="#" class="trigger">Вся продукция</a>
@@ -93,82 +94,129 @@
       </div>
     </div>
 
-
-    <section class="-template__about">
-      <h1 class="-template__h1"><span class="content">О компании</span></h1>
-      <!--content-->
-      <div class="-template__about__content">
-        <!--slider-->
-        <div class="-template__product__slider">
-          <div class="camera_wrap slider__simple">
-            <div data-src="../images/tmp/slider__simple-1.png"></div>
-            <div data-src="../images/tmp/slider__simple-2.png"></div>
+    <section class="-template__product">
+      <h1 class="-template__h1"><span class="content">Жалюзи</span></h1>
+      <ul class="-template__product__tab_nav">
+        <li><a href="#" class="unit">Горизонтальные</a></li>
+        <li><a href="#" class="unit">Вертикальные</a></li>
+      </ul>
+      <!--tab container-->
+      <div>
+        <!--tab 1-->
+        <div class="-template__product__tab_unit">
+          <div class="-template__product__slider">
+            <div class="camera_wrap slider__simple">
+              <div data-src="../images/tmp/slider__simple-1.png"></div>
+              <div data-src="../images/tmp/slider__simple-2.png"></div>
+            </div>
+          </div>
+          <!--page content-->
+          <div class="-template__product__content">
+            <h2>Заголовок</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its la  yout. The point of using Lorem Ipsum is that it has a more-or-less normal.
+            <p>Вistribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many.
+            <h2>Заголовок</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its la  yout. The point of using Lorem Ipsum is that it has a more-or-less normal.
+            <p>Вistribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many.
+            <ul>
+              <li>Вistribution of letters</li>
+              <li>Вistribution of letters</li>
+              <li>Вistribution of letters</li>
+            </ul>
+            <div class="jList">
+              <figure>
+                <img src="images/tmp/figure.png">
+                <figcaption>Фигура</figcaption>
+              </figure>
+              <figure>
+                <img src="images/tmp/figure.png">
+                <figcaption>Фигура</figcaption>
+              </figure>
+              <figure>
+                <img src="images/tmp/figure.png">
+                <figcaption>Фигура</figcaption>
+              </figure>
+            </div>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its la  yout. The point of using Lorem Ipsum is that it has a more-or-less normal.
+            <p>Вistribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many.
           </div>
         </div>
-        <h2>Заголовок</h2>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its la  yout. The point of using Lorem Ipsum is that it has a more-or-less normal.
-        <p>Вistribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many.
-        <h2>Заголовок</h2>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its la  yout. The point of using Lorem Ipsum is that it has a more-or-less normal.
-        <p>Вistribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many.
-        <ul>
-          <li>Вistribution of letters</li>
-          <li>Вistribution of letters</li>
-          <li>Вistribution of letters</li>
-        </ul>
-        <div class="jList">
-          <figure>
-            <img src="images/tmp/figure__large.png">
-            <figcaption>Фигура</figcaption>
-          </figure>
-          <figure>
-            <img src="images/tmp/figure__large.png">
-            <figcaption>Фигура</figcaption>
-          </figure>
-        </div>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its la  yout. The point of using Lorem Ipsum is that it has a more-or-less normal.
-        <p>Вistribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many.
-        <div class="video_wrapper">
-          <iframe width="460" height="300" src="http://www.youtube.com/embed/jWSxev7eJvs" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <!--tab 2-->
+        <div class="-template__product__tab_unit"></div>
       </div>
-    </section>
-
-    <!--sidebar-->
-    <aside class="-template__aside" itemscope itemtype='http://schema.org/WPSideBar'>
-      <!--button 1-->
-      <a href="#" class="-button__main">
-        <h2 class="title">Заказать окно</h2>
-        <div class="content">Точный расчет стоимости  окон и дверей.</div>
-        <div class="image image-1"></div><!--image is here-->
-      </a>
-      <!--button 2-->
-      <a href="#" class="-button__main">
-        <h2 class="title">Калькулятор</h2>
-        <div class="content">Точный расчет стоимости металлопластиковых окон и дверей.</div>
-        <div class="image image-2"></div><!--image is here-->
-      </a>
-      <!--button 3-->
-      <a href="#" class="-button__main">
-        <h2 class="title">Выбор окон</h2>
-        <div class="content">Точный расчет стоимости металлопластиковых окон и дверей расчет стоимости.</div>
-        <div class="image image-3"></div><!--image is here-->
-      </a>
-      <!--button 4-->
-      <a href="#" class="-button__main">
-        <h2 class="title">Вызов замерщика</h2>
-        <div class="content">Заявка на вызов специалиста по замеру.</div>
-        <div class="image image-4"></div><!--image is here-->
-      </a>
-      <address class="-template__aside__phone">
-        Консультации по продукции, оплате, доставке по телефону
-        <p class="number">
-          <span class="attention">(057)</span>
-          761-29-60
-        </p>
-      </address>
-    </aside>
-    <!--end left sidebar-->
+    </section><!--end main colulmn-->
+    <!--calculator-->
+    <aside class="-calculator_aside">
+      <h2 class="title">Расчет стоимости жалюзи</h2>
+      <ul class="-calculator_aside__tab_nav">
+        <li><a href="#" class="unit">Горизонтальные</a></li>
+        <li><a href="#" class="unit">Вертикальные</a></li>
+      </ul>
+      <!--tab container-->
+      <div>
+        <!--tab 1-->
+        <form class="-calculator_aside__tab_unit">
+          <div class="unit">
+            <select>
+              <option>Something</option>
+              <option>Something very very difficult</option>
+            </select>
+            <img src="images/tooltip.png" title="This is a tooltip helper. I need to style it.">
+          </div>
+          <div class="unit color_picker">
+            <span class="color_picker__label">Выбрать фактуру и цвет</span>
+            <span class="color_picker__unit">
+              <span class="dragable"></span>
+            </span>
+          </div>
+          <div class="unit">
+            <select>
+              <option>Something</option>
+              <option>Something very very difficult</option>
+            </select>
+            <img src="images/tooltip.png" title="This is a tooltip helper. I need to style it.">
+          </div>
+          <div class="unit size_calc">
+            <input type="text" placeholder="Ширина">
+            <input type="text" placeholder="Высота">
+            <a href="#" class="label">Как правильно сделать замер</a>
+          </div>
+          <div class="unit checkboxes">
+            <label>
+              <input type="checkbox" name="calculator_aside__checkbox">
+              <span class="label">Замер</span>
+            </label>
+            <label>
+              <input type="checkbox" name="calculator_aside__checkbox">
+              <span class="label">Установка</span>
+            </label>
+            <label>
+              <input type="checkbox" name="calculator_aside__checkbox">
+              <span class="label">Доставка</span>
+            </label>
+          </div>
+          <div class="unit unit__align_btm">
+            <div class="select_small">
+              <h4 class="label">Количество изделий</h4>
+              <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+            <a href="#" class="button__calc">Рассчитать</a>
+          </div>
+          <button type="submit" class="button__purchase">Заказать</button>
+          <div class="unit">
+            <a href="#" class="button__service"><span class="content">Отправить нам на почту</span></a>
+            <a href="#" class="button__service"><span class="content">Распечатать</span></a>
+            <a href="#" class="button__service"><span class="content">Сохранить</span></a>
+          </div>
+        </form>
+        <!--tab 2-->
+        <form class="-calculator_aside__tab_unit"></form>
+      </div>
+    </aside><!--end calculator-->
 
 
     <!--scrollUp and search-->
@@ -226,7 +274,6 @@
 </footer>
 <!-- END FOOTER -->
 
-
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 <script src="js/vendor/jquery.columnizer.min.js"></script>
@@ -239,7 +286,6 @@
 <script src="js/plugins/slider/camera.min.js"></script>
 
 <script src="js/main.js"></script>
-
 <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
 mathiasbynens.be/notes/async-analytics-snippet -->
 <script>
