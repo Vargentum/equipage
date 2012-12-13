@@ -102,15 +102,14 @@
     <h1 class="-template__calculator__title">Оконный калькулятор</h1>
     <!--calculator-->
     <section class="-template__calculator">
-      <ul class="progressBar">
-        <li class="unit current">Знакомство с окнами</li>
-        <li class="unit done">Конфигурация</li>
-        <li class="unit done">Размеры</li>
-        <li class="unit done">Профильная система</li>
-        <li class="unit done">Стеклопакет</li>
-        <li class="unit done">Дополнительные элементы</li>
-        <li class="unit">Оформление заказа</li>
-      </ul>
+      <!--change this classes automatically to progress throug the bar-->
+      <div class="progressBar progress-1"></div>
+      <!--<div class="progressBar progress-2"></div>-->
+      <!--<div class="progressBar progress-3"></div>-->
+      <!--<div class="progressBar progress-4"></div>-->
+      <!--<div class="progressBar progress-5"></div>-->
+      <!--<div class="progressBar progress-6"></div>-->
+      <!--<div class="progressBar progress-7"></div>-->
       <!--content-->
       <div class="-template__calculator__content">
         <!--arrows-->
@@ -120,7 +119,7 @@
           <!--left column-->
           <div class="column_lt">
             <div class="size_calc">
-              <span class="indicator active"></span>
+              <span class="indicator"></span>
               <div class="content">
                 <input type="text" placeholder="Ширина">
                 <input type="text" placeholder="Высота">
@@ -128,7 +127,7 @@
               </div>
             </div>
             <div class="unit">
-              <span class="indicator active"></span>
+              <span class="indicator"></span>
               <label class="select__label" for="window-profile">Профиль:</label>
               <select id="window-profile">
                 <option value="1">Профиль 1</option>
